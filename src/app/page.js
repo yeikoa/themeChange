@@ -23,7 +23,7 @@ export default function Home() {
   }
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 dark:bg-black" >
-      <button className='bg-lime-700 rounded-lg text-cyan-950 hover:bg-orange-500 '
+      <button className='bg-lime-700 rounded-lg text-cyan-950 hover:bg-orange-500 dark:bg-red-800 '
       onClick={HandleChangeTheme}
       >
         Color
